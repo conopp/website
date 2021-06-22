@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Placeholder from './components';
+import Placeholder from './components/Placeholder';
 
 import './App.css';
 
