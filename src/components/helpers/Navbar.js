@@ -9,8 +9,8 @@ function Navbar() {
                 <img src="discord.png"></img>
             </a>
             <a href="/">Tab:Home</a>
-            <a href="/drops">Tab:Drops</a>
-            <a href="/creatures">Tab:Creatures</a>
+            <a href="/drops">Tab:Gear</a>
+            <a href="/creatures">Tab:Mobs</a>
             <a href="/quests">Tab:Quests</a>
             <img id="profile-icon" src="profile.png"></img>
         </nav>
