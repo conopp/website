@@ -6,20 +6,22 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import { store } from './state/index.js';
 
-import Home from './components/Home';
+import Home from './components/Home.js';
+import Gear from './components/Gear.js';
+import Mobs from './components/Mobs.js';
 
 ReactDOM.render(
     <BrowserRouter>
         <Provider store={store}>
             <Switch>
-                <Route path="/" exact>
+                <Route path="/website">
                     <Home />
                 </Route>
                 <Route path="/gear">
-
+                    <Gear />
                 </Route>
                 <Route path="/mobs">
-
+                    <Mobs />
                 </Route>
             </Switch>
         </Provider>

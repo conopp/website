@@ -1,16 +1,32 @@
 #navbar {
     display: flex;
+    justify-content: space-between;
+
+    border: 1px dotted gray; /* debug */
 }
 
-a {
-    text-decoration: none;
+#pages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15vw; /* responsify */
 
-    padding: 5%;
+    border:  1px dotted yellow;
 
-    &:hover {
-        color: red;
+    .page {
+        text-decoration: none;
+        padding: 5% 10%; /* responsify */
+        border: 1px dotted crimson; /* debug */
+
+        &:hover {
+            color: red;
+        }
+        &:active {
+            color: yellow;
+        }
     }
-    &:active {
-        color: yellow;
-    }
+}
+
+img {
+    border: 1px dotted orange; /* debug */
 }
