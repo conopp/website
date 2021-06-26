@@ -3,30 +3,34 @@
     justify-content: space-between;
 
     border: 1px dotted gray; /* debug */
-}
 
-#pages {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 15vw; /* responsify */
+    #pages {
+        display: flex;
+        width: 20%;
 
-    border:  1px dotted yellow;
+        border:  1px dotted yellow; /* debug */
 
-    .page {
-        text-decoration: none;
-        padding: 5% 10%; /* responsify */
-        border: 1px dotted crimson; /* debug */
+        a {
+            text-decoration: none;
+            border: 1px dotted crimson; /* debug */
 
-        &:hover {
-            color: red;
+            // tab sizing & spacing
+            height: 100%;
+            width: 100%;
+            text-align: center;
+            h1 {transform: translateY(125%)}
+
+            &:hover {
+                color: orange;
+            }
         }
-        &:active {
+
+        .active {
             color: yellow;
         }
     }
-}
 
-img {
-    border: 1px dotted orange; /* debug */
+    img {
+        border: 1px dotted yellow;
+    }
 }

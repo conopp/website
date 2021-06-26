@@ -4,7 +4,7 @@ import Navbar from './helpers/Navbar';
 
 function Home() {
     return (
-        <div id="home">
+        <div id="mobs" style={{width:"100%"}}>
             <Navbar />
             <section></section>
         </div>

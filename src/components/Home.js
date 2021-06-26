@@ -2,13 +2,20 @@ import React from 'react';
 import ScrollableAnchor from 'react-scrollable-anchor';
 
 import Navbar from './helpers/Navbar.js';
+import Navlist from './helpers/Navlist.js';
+
+import '../styles/Home.scss';
 
 function Home() {
     return (
-        <div id="home" style={{width:"100%"}}>
+        <div id="home">
             <Navbar />
-            <section></section>
-            <aside></aside>
+            <main id="content">
+                <section>
+                    test
+                </section>
+                <Navlist />
+            </main>
         </div>
     )
 }

@@ -14,13 +14,13 @@ ReactDOM.render(
     <BrowserRouter>
         <Provider store={store}>
             <Switch>
-                <Route path="/website">
+                <Route exact path="/website">
                     <Home />
                 </Route>
-                <Route path="/gear">
+                <Route path="/website/gear">
                     <Gear />
                 </Route>
-                <Route path="/mobs">
+                <Route path="/website/mobs">
                     <Mobs />
                 </Route>
             </Switch>
@@ -33,6 +33,7 @@ ReactDOM.render(
     Theme:
         Bluish: #20232A
         Dark Bluish: #0D1117
+        Light Gray: #BEC9DA
         Dark Gray: #181A1B
         Near Black: #0D0D0D
 */

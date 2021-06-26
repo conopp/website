@@ -1,0 +1,9 @@
+#navlist {
+    border: 1px dotted crimson; /* debug */
+    width: 14%;
+    padding: 1%;
+    box-sizing: border-box;
+    position: sticky;
+
+    li {margin-left: 6.25%} /* (100 / #navlist-width * actual-desired-%) */
+}

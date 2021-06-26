@@ -1,0 +1,17 @@
+#home {
+    width: 100%;
+
+    #content {
+        margin-top: 2%;
+        display: flex;
+        padding: 2%;
+        justify-content: space-between;
+
+        section {
+            border: 1px dotted crimson; /* debug */
+            width: 82%;
+            padding: 1%;
+            box-sizing: border-box;
+        }
+    }
+}
