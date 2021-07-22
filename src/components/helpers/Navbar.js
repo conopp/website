@@ -5,7 +5,7 @@ import '../../styles/Navbar.scss';
 
 function Navbar() {
     return (
-        <nav id="navbar" aria-label="primary">
+        <nav id="navbar">
             <div id="discord-img">
                 <a href="https://discord.gg/aj8qW2TsJN" target="_blank">
                     <img src="https://drive.google.com/uc?export=download&id=1qdHDoBzD-o-w0Am9kCq8ON1RHQwtsNqK"></img>
